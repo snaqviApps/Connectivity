@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ControlOneAndroid</string>
+    <string name="ehrpd">EHRPD</string>
+    <string name="umts">UMTS</string>
+    <string name="hsupa">HSUPA</string>
+    <string name="hsdpa">HSDPA</string>
+    <string name="hspa">HSPA</string>
+    <string name="hspap">HSPAP</string>
+    <string name="lte">LTE</string>
+    <string name="nr">NR</string>
+    <string name="scdma">SCDMA</string>
+    <string name="edge">EDGE</string>
+    <string name="evdo_0">EVDO_0</string>
+    <string name="evdo_A">EVDO_A</string>
+    <string name="evdo_B">EVDO_B</string>
+    <string name="gprs">GPRS</string>
+    <string name="_1xrtt">1xRTT</string>
+    <string name="cdma">CDMA</string>
+</resources>
