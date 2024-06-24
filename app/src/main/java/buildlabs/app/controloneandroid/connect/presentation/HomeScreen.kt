@@ -58,7 +58,7 @@ fun HomeScreen(networkStatus: String) {
 
         OutlinedTextField(
             modifier = Modifier
-                .width(357.dp)
+                .width(350.dp)
                 .height(52.dp)
                 .border(BorderStroke(5.dp, Color.Transparent))
                 .background(Color.Transparent),
@@ -82,7 +82,7 @@ fun HomeScreen(networkStatus: String) {
                       txState.value = networkStatus
             },
             modifier = Modifier
-                .width(359.dp)
+                .width(350.dp)
                 .size(53.dp)
                 .align(Alignment.CenterHorizontally)
                 .shadow(
@@ -104,17 +104,17 @@ fun HomeScreen(networkStatus: String) {
         Row{
             Column(
                 modifier = Modifier
-                    .background(Color.Gray)
+                    .background(Color.Green)
                     .align(Alignment.CenterVertically),
             ) {
                 Divider(
-                    color = Color.White,
+                    color = Color.Green,
                     thickness = 0.2.dp,
                     modifier = Modifier
-                        .width(129.dp)
+                        .width(120.dp)
                 )
             }
-            Spacer(modifier = Modifier.width(32.dp))
+            Spacer(modifier = Modifier.width(20.dp))
             Text(
                 text = "or",
                 color = Blue01,
@@ -127,10 +127,10 @@ fun HomeScreen(networkStatus: String) {
                     .align(Alignment.CenterVertically)
             ) {
                 Divider(
-                    color = Color.Cyan,
+                    color = Color.Green,
                     thickness = 0.2.dp,
                     modifier = Modifier
-                        .width(129.dp)
+                        .width(120.dp)
                 )
             }
         }
